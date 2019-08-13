@@ -144,7 +144,7 @@ cat >accounts.json <<'EOT'
     ]
 }
 EOT
-```
+
 
 # This will launch a fully functional network
 
