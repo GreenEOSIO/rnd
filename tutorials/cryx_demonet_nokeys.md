@@ -205,7 +205,7 @@ journalctl -u nodeos@cryx -f
 
 exit
 
-iptables -t nat -A PREROUTING -d 85.17.224.203/32 -p tcp -m tcp --dport 9901 -j DNAT --to-destination 10.0.3.80:9901
+iptables -t nat -A PREROUTING -d x.x.x.x/32 -p tcp -m tcp --dport 9901 -j DNAT --to-destination 10.0.3.80:9901
 ```
 
 
